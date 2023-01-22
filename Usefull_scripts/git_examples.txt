@@ -1,0 +1,9 @@
+# git examples
+git config --global user.email "imrane.elfihmi@student.odisee.be"
+git config --list
+git config --list --show-origin
+git init
+git clone <URL>
+git checkout -b test origin/main
+git diff
+git merge

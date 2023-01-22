@@ -1,0 +1,3 @@
+FROM debian:wheezy
+ENTRYPOINT [ "/bin/ping -c 4" ]
+CMD [ "localhost" ]
